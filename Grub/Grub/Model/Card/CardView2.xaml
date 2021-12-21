@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Grub.Component.Card.CardView2">
+    <ContentView.Content>
+        <Frame OutlineColor="White" CornerRadius="10" HasShadow="True">
+            <StackLayout>
+                <AbsoluteLayout HorizontalOptions="Center" VerticalOptions="Center">
+
+
+
+                    <Frame  CornerRadius="10"    HorizontalOptions="Center" VerticalOptions="Center"
+                           Padding="0"
+                           IsClippedToBounds="True" WidthRequest="218" HeightRequest="131" >
+                        <Image x:Name="backgroundImage"
+                                   Source="https://image.freepik.com/free-vector/red-golden-chinese-new-year-2022-illustration-with-tiger_23-2148358459.jpg" 
+                                   AbsoluteLayout.LayoutBounds="0,0,1,1"  Aspect="Fill"   />
+                    </Frame>
+                    <FlexLayout Direction="Row"
+                AlignItems="Start"
+                JustifyContent="SpaceBetween"
+                                Padding="10"
+                                >
+                        <Frame
+                       
+                        CornerRadius="10" 
+           HorizontalOptions="Center" 
+           VerticalOptions="Center"
+           HasShadow="True"
+           IsClippedToBounds="True"
+                        WidthRequest="50"
+                           HeightRequest="50"
+                           BackgroundColor="Yellow" 
+           Padding="0">
+                            <StackLayout HorizontalOptions="Center" 
+                             VerticalOptions="Center"
+                           >
+
+                                <Label Text="10" TextColor="Black" HorizontalOptions="Center"  />
+                                <Label Text="JUNE" TextColor="Black" />
+
+                            </StackLayout>
+                        </Frame>
+                        <Frame
+                      
+                        CornerRadius="10" 
+           HorizontalOptions="Center" 
+           VerticalOptions="Center"
+           HasShadow="True"
+           IsClippedToBounds="True"
+                        WidthRequest="50"
+                           HeightRequest="50"
+                           BackgroundColor="Yellow" 
+           Padding="0">
+                            <StackLayout HorizontalOptions="Center" 
+                             VerticalOptions="Center"
+                           >
+
+                                <Label Text="10" TextColor="Black" HorizontalOptions="Center"  />
+                                <Label Text="JUNE" TextColor="Black" />
+
+                            </StackLayout>
+                        </Frame>
+                    </FlexLayout>
+                </AbsoluteLayout>
+                
+              
+                <Label Text="Women's Leadership Conferences"/>
+                <Label Text="53 Brush St San France"/>
+                <Grid RowSpacing="0" ColumnSpacing="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+
+                    </Grid.RowDefinitions>
+                    <Frame Grid.Column="0" Grid.Row="0" 
+                           CornerRadius="100" 
+                           HeightRequest="20"
+                           WidthRequest="20"
+                           HorizontalOptions="Center"
+                           Padding="0"
+                           IsClippedToBounds="True">
+                        <Image
+                                     Source="https://image.freepik.com/free-vector/red-golden-chinese-new-year-2022-illustration-with-tiger_23-2148358459.jpg" 
+                                    Aspect="Fill" />
+                    </Frame>
+                    <Label Text="+ 20 going" Grid.Column="1" Grid.Row="0"/>
+                    <Frame Grid.Column="0" Grid.Row="1" 
+                           CornerRadius="100" 
+                           HeightRequest="50"
+                           WidthRequest="50"
+                           HorizontalOptions="Center"
+                           Padding="0"
+                           IsClippedToBounds="True">
+                        <Image
+                                     Source="https://image.freepik.com/free-vector/red-golden-chinese-new-year-2022-illustration-with-tiger_23-2148358459.jpg" 
+                                    Aspect="Fill" />
+                    </Frame>
+                    <Label Text="+ 20 going" Grid.Column="1" Grid.Row="1"/>
+                </Grid>
+                <Grid>
+
+
+                </Grid>
+            </StackLayout>
+        </Frame>
+    </ContentView.Content>
+</ContentView>

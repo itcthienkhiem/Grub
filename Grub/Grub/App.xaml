@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             
+             x:Class="Grub.App">
+    <Application.Resources>
+        <ResourceDictionary Source="Resource/MainResource.xaml" />
+        <Thickness x:Key="PageMargin">20</Thickness>
+        <Style x:Key="frame1" TargetType="Frame">
+            <Setter Property="BorderColor" Value="White"/>
+            <Setter Property="HasShadow" Value="True"/>
+            <Setter Property="Padding" Value="16"/>
+            <Setter Property="Margin" Value="5"/>
+
+        </Style>
+        <Style x:Key="grid" TargetType="Grid">
+           
+           
+            <Setter Property="Padding" Value="2"/>
+            <Setter Property="Margin" Value="5"/>
+
+        </Style>
+        <Style x:Key="labelStyle" TargetType="Label">
+            <Setter Property="HorizontalOptions" Value="Center" />
+            <Setter Property="VerticalOptions" Value="CenterAndExpand" />
+            <Setter Property="FontSize" Value="Large" />
+        </Style>
+        <Style x:Key="Title"
+               TargetType="Label">
+            <Setter Property="TextColor"
+                    Value="{DynamicResource TertiaryTextColor}" />
+            <Setter Property="FontSize"
+                    Value="22" />
+            <Setter Property="LineHeight" Value="25.78" />
+            <Setter Property="FontFamily" Value="Roboto-Bold"/>
+          
+
+        </Style>
+        <Style x:Key="Subtitle"
+               TargetType="Label">
+            <Setter Property="TextColor"
+                    Value="{DynamicResource TertiaryTextColor}" />
+            <Setter Property="FontSize"
+                    Value="20" />
+            <Setter Property="LineHeight" Value="23.44" />
+            <Setter Property="FontFamily" Value="Roboto-Bold"/>
+
+
+        </Style>
+        <Style x:Key="Body1"
+               TargetType="Label">
+            <Setter Property="TextColor"
+                    Value="{DynamicResource TertiaryTextColor}" />
+            <Setter Property="FontSize"
+                    Value="16" />
+            <Setter Property="LineHeight" Value="25.78" />
+            <Setter Property="FontFamily" Value="Roboto-Bold"/>
+        </Style>
+        <Style x:Key="Body2"
+               TargetType="Label">
+            <Setter Property="TextColor"
+                    Value="{DynamicResource TertiaryTextColor}" />
+            <Setter Property="FontSize"
+                    Value="16" />
+            <Setter Property="LineHeight" Value="18.75" />
+            <Setter Property="FontFamily" Value="Roboto-Regular"/>
+        </Style>
+        
+        <Style x:Key="Body3"
+               TargetType="Label">
+            <Setter Property="TextColor"
+                    Value="{DynamicResource TertiaryTextColor}" />
+            <Setter Property="FontSize"
+                    Value="14" />
+            <Setter Property="LineHeight" Value="16.41" />
+            <Setter Property="FontFamily" Value="Roboto-Bold"/>
+        </Style>
+        <Style x:Key="Body4"
+               TargetType="Label">
+            <Setter Property="TextColor"
+                    Value="{DynamicResource TertiaryTextColor}" />
+            <Setter Property="FontSize"
+                    Value="14" />
+            <Setter Property="LineHeight" Value="16.41" />
+            <Setter Property="FontFamily" Value="Roboto-Regular"/>
+        </Style>
+        <Style x:Key="Caption1"
+               TargetType="Label">
+            <Setter Property="TextColor"
+                    Value="{DynamicResource TertiaryTextColor}" />
+            <Setter Property="FontSize"
+                    Value="12" />
+            <Setter Property="LineHeight" Value="14.06" />
+            <Setter Property="FontFamily" Value="Roboto-Bold"/>
+        </Style>
+        <Style x:Key="Caption2"
+               TargetType="Label">
+            <Setter Property="TextColor"
+                    Value="{DynamicResource TertiaryTextColor}" />
+            <Setter Property="FontSize"
+                    Value="12" />
+            <Setter Property="LineHeight" Value="14.06" />
+            <Setter Property="FontFamily" Value="Roboto-Regular"/>
+        </Style>
+        <Style x:Key="BUTTON"
+               TargetType="Label">
+            <Setter Property="TextColor"
+                    Value="{DynamicResource TertiaryTextColor}" />
+            <Setter Property="FontSize"
+                    Value="16" />
+            <Setter Property="LineHeight" Value="25" />
+            <Setter Property="FontFamily" Value="AirbnbCerealMedium"/>
+            <Setter Property="CharacterSpacing" Value="1"/>
+        </Style>
+        <Style x:Key="Title 3"
+               TargetType="Label">
+            <Setter Property="TextColor"
+                    Value="{DynamicResource TertiaryTextColor}" />
+            <Setter Property="FontSize"
+                    Value="15" />
+           
+            <Setter Property="FontFamily" Value="AirbnbCerealMedium"/>
+        </Style>
+        <Style x:Key="Body 2"
+               TargetType="Label">
+            <Setter Property="TextColor"
+                    Value="{DynamicResource TertiaryTextColor}" />
+            <Setter Property="FontSize"
+                    Value="15" />
+           
+            <Setter Property="FontFamily" Value="AirbnbCerealBook"/>
+        </Style>
+        <Style x:Key="Body 3"
+               TargetType="Label">
+            <Setter Property="TextColor"
+                    Value="{DynamicResource TertiaryTextColor}" />
+            <Setter Property="FontSize"
+                    Value="14" />
+            <Setter Property="LineHeight" Value="23" />
+            <Setter Property="FontFamily" Value="AirbnbCerealBook"/>
+        </Style>
+        <Style x:Key="SubTitle 1"
+               TargetType="Label">
+            <Setter Property="TextColor"
+                    Value="{DynamicResource TertiaryTextColor}" />
+            <Setter Property="FontSize"
+                    Value="13" />
+         
+            <Setter Property="FontFamily" Value="AirbnbCerealBook"/>
+        </Style>
+        <Style x:Key="SubTitle 2"
+               TargetType="Label">
+            <Setter Property="TextColor"
+                    Value="{DynamicResource TertiaryTextColor}" />
+            <Setter Property="FontSize"
+                    Value="12" />
+          
+            <Setter Property="FontFamily" Value="AirbnbCerealBook"/>
+        </Style>
+        <Style x:Key="ButtonStyle"
+               TargetType="Button">
+            <Setter Property="BackgroundColor"
+                    Value="{DynamicResource PrimaryColor}" />
+            <Setter Property="FontSize"
+                    Value="{DynamicResource Title}" />
+            <Setter Property="CornerRadius"
+                    Value="25" />
+            <Setter Property="TextColor" Value="{DynamicResource AccentColorWhite}"/>
+        </Style>
+        <Style x:Key="ButtonStyle01"
+               TargetType="Button">
+            <Setter Property="BackgroundColor"
+                    Value="{DynamicResource NeutralColorOrgane}" />
+            <Setter Property="FontSize"
+                    Value="{DynamicResource Title}" />
+            <Setter Property="CornerRadius"
+                    Value="25" />
+            <Setter Property="TextColor" Value="{DynamicResource NeutralColorDarkOrange}"/>
+        </Style>
+        <Style x:Key="Label1"
+               TargetType="Label">
+           
+            <Setter Property="FontSize"
+                    Value="{DynamicResource Subtitle}" />
+            <Setter Property="HorizontalOptions" Value="Center"/>
+            <Setter Property="TextColor" Value="{DynamicResource BackgroundColor}"/>
+        </Style>
+        <Style x:Key="Label2"
+               TargetType="Label">
+
+            <Setter Property="FontSize"
+                    Value="{DynamicResource Title}" />
+            <Setter Property="HorizontalOptions" Value="Center"/>
+            <Setter Property="TextColor" Value="{DynamicResource AccentColorGray}"/>
+        </Style>
+        <Style x:Key="logo"
+               TargetType="Image">
+
+
+            <Setter Property="HorizontalOptions" Value="Center"/>
+        </Style>
+
+    </Application.Resources>
+    
+</Application>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+               xmlns:local="clr-namespace:Grub"
+             x:Class="Grub.Components.Category">
+  <ContentView.Content>
+        <Grid Padding="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.3*" />
+                <RowDefinition Height="0.3*" />
+                <RowDefinition Height="0.3*" />
+             
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.3*"/>
+                <ColumnDefinition Width="0.3*"/>
+                <ColumnDefinition Width="0.3*"/>
+            </Grid.ColumnDefinitions>
+
+            <Frame HasShadow="True"  Grid.Row="0" Grid.Column="0">
+                <StackLayout>
+                    <Image Source="{local:ImageResource Grub.Images.Icons.icon-3@2x.png}"  Grid.Row="0" Grid.Column="0" HorizontalOptions="Center" Aspect="AspectFit" Grid.RowSpan="4" />
+                    <Label Text="hellp"/>
+                </StackLayout>
+            </Frame>
+            
+            
+            
+        </Grid>
+    </ContentView.Content>
+</ContentView>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Grub"
+             x:Class="Grub.Components.FindingGroceryShop">
+  <ContentView.Content>
+        <Frame Style="{StaticResource frame1}"
+       CornerRadius="25" 
+       >
+            <StackLayout Orientation="Vertical" VerticalOptions="Center">
+                <Image Source="{local:ImageResource Grub.Images.Icons._42.png}" Style="{DynamicResource logo}" Aspect="AspectFit"/>
+
+                <Label Text="Finding Grocery Shop" Style="{DynamicResource Label1}"  HorizontalOptions="Center" />
+                <Label Text="Here is near by all grocery shop" Style="{DynamicResource Label2}"  HorizontalOptions="Center" />
+                <Button Style="{DynamicResource ButtonStyle01}" Text="SIGN UP"/>
+                <Label Text="d"/>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Already have an account?"/>
+                    <Label Text="SignIn"/>
+
+
+                </StackLayout>
+            </StackLayout>
+            
+        </Frame>
+    </ContentView.Content>
+</ContentView>

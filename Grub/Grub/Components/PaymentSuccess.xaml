@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Grub"
+             x:Class="Grub.Components.PaymentSuccess">
+  <ContentView.Content>
+        <Frame Style="{StaticResource frame1}"
+       CornerRadius="25" 
+       >
+            <StackLayout Orientation="Vertical" HorizontalOptions="Center"    >
+
+                <Label Text="Payment Success" Style="{DynamicResource Body1}"  HorizontalOptions="Center" />
+                <Label Text="Tip ID # 125050"   TextColor="{DynamicResource PrimaryColor}"  HorizontalOptions="Center" />
+                <Label Text="Thank you for choosing our service and trusted to help you with your problems" HorizontalOptions="Center"  />
+                
+            </StackLayout>
+        </Frame>
+    </ContentView.Content>
+</ContentView>

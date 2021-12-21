@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+               xmlns:local="clr-namespace:Grub"
+             x:Class="Grub.Components.SignUpCmp">
+    <ContentView.Content>
+        <Frame Style="{StaticResource frame1}"
+       CornerRadius="25" 
+       >
+            <StackLayout Orientation="Vertical" VerticalOptions="Center" >
+
+                <Label Text="Sign up with" Style="{DynamicResource Label1}"  HorizontalOptions="Center" />
+                <Label Text="email and phone number" Style="{DynamicResource Label2}"  HorizontalOptions="Center" />
+                <inputLayout:SfTextInputLayout Hint="Email" OutlineCornerRadius="25" ContainerType="Outlined"
+>
+                    <Entry  />
+                </inputLayout:SfTextInputLayout>
+                <Label Text="OR" Style="{DynamicResource Label1}" />
+                <inputLayout:SfTextInputLayout Hint="PhoneNumber" OutlineCornerRadius="25" ContainerType="Outlined"
+>
+                    <Entry />
+                </inputLayout:SfTextInputLayout>
+                <Button Style="{DynamicResource ButtonStyle}" Text="SIGN IN"/>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" >
+                    <Label Text="Already have an account?" Style="{DynamicResource Label1}"/>
+                    <Label Text="Sign In" Style="{DynamicResource Label1}"/>
+
+
+                </StackLayout>
+
+
+            </StackLayout>
+        </Frame>
+    </ContentView.Content>
+</ContentView>

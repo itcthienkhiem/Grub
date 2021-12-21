@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+xmlns:checkbox="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Grub.Components.CreditCard"
+             xmlns:local="clr-namespace:Grub"
+             >
+    <ContentView.Content>
+        <Frame Style="{StaticResource frame1}"
+       CornerRadius="25" 
+       >
+            <StackLayout Orientation="Horizontal" VerticalOptions="Center">
+                <checkbox:SfRadioButton x:Name="radioButton" Text="Credit / Debit / ATM Card"  CheckedColor="{StaticResource PrimaryColor}" />
+                <Image Source="{local:ImageResource Grub.Images.Icons.Icon_chevron-right@2x.png}" HorizontalOptions="EndAndExpand" Aspect="AspectFit"/>
+            </StackLayout>
+        </Frame>
+
+    </ContentView.Content>
+</ContentView>

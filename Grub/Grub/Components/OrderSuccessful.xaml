@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Grub.Components.OrderSuccessful">
+  <ContentView.Content>
+        <Frame Style="{StaticResource frame1}"
+       CornerRadius="10" 
+       >
+            <StackLayout Orientation="Vertical" >
+                <Label Text="Order successful!" Style="{DynamicResource Subtitle}" HorizontalOptions="Center" />
+                <Label Text="We will Start Work on time." Style="{DynamicResource SubTitle 1}" HorizontalOptions="Center" />
+                <Label Text="Thank you!" Style="{DynamicResource SubTitle 1}" HorizontalOptions="Center"  />
+                <Button Style="{DynamicResource ButtonStyle}" Text="View Order"/>
+                <Button Style="{DynamicResource ButtonStyle}" BackgroundColor="{DynamicResource NeutralColorOrgane}" Text="Continue Orders" TextColor="{DynamicResource NeutralColorDarkOrange}"/>
+
+            </StackLayout>
+        </Frame>
+    </ContentView.Content>
+</ContentView>

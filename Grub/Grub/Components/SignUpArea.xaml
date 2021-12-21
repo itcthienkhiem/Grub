@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+xmlns:checkbox="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
+             xmlns:local="clr-namespace:Grub"
+             x:Class="Grub.Components.SignUpArea">
+    <ContentView.Content>
+        <Frame Style="{StaticResource frame1}"
+       CornerRadius="10" 
+       >
+            <StackLayout Orientation="Vertical" >
+                <Image Source="{local:ImageResource Grub.Images.Icons.icon-3@2x.png}"  Grid.Row="0" Grid.Column="0" HorizontalOptions="Center" Aspect="AspectFit" Grid.RowSpan="2"/>
+                <inputLayout:SfTextInputLayout  Hint="Student full name" >
+                    <Entry />
+                </inputLayout:SfTextInputLayout>
+                <inputLayout:SfTextInputLayout  Hint="Phone Number" >
+                    <Entry />
+                </inputLayout:SfTextInputLayout>
+                <inputLayout:SfTextInputLayout  Hint="Email" >
+                    <Entry />
+                </inputLayout:SfTextInputLayout>
+                <inputLayout:SfTextInputLayout  Hint="Password" EnablePasswordVisibilityToggle="true" >
+                    <Entry />
+                </inputLayout:SfTextInputLayout>
+                <inputLayout:SfTextInputLayout  Hint="Confirm Password" EnablePasswordVisibilityToggle="true" >
+                    <Entry />
+                </inputLayout:SfTextInputLayout>
+                <checkbox:SfCheckBox x:Name="checkBox" Text="By creating an account you agree to our Terms of Service and Privacy Policy" CheckedColor="{StaticResource PrimaryColor}"/>
+
+                <Button Style="{DynamicResource ButtonStyle}" Text="SignUp"/>
+
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" >
+                    <Label Text="Already have an account?"/>
+                    <Label Text="Sign in !" TextColor="{DynamicResource NeutralColorDarkOrange}"/>
+
+
+                </StackLayout>
+               
+            </StackLayout>
+        </Frame>
+    </ContentView.Content>
+</ContentView>

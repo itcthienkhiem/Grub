@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary  xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Grub.Resource.MainResource">
+    <Color x:Key="PrimaryColor">#0FCBA1</Color>
+    <Color x:Key="SecondaryColor">#00F8FF</Color>
+    <Color x:Key="TypographyColor">#120D26</Color>
+
+    <Color x:Key="AccentColorBlack">#191C24</Color>
+    <Color x:Key="AccentColorGray">#8A8D9F</Color>
+    <Color x:Key="AccentColorLightWhite">#F9F9FF</Color>
+    <Color x:Key="AccentColorWhite">#FFF</Color>
+
+    <Color x:Key="NeutralColorOrgane">#FFBC00</Color>
+    <Color x:Key="NeutralColorDarkOrange">#FF5C3A</Color> 
+    <Color x:Key="NeutralColorLightOrange">#FFA26B</Color>
+    
+
+
+    <Color x:Key="BackgroundColor">#2D2D3A</Color>
+    <Color x:Key="CardColor">#393948</Color>
+    <Color x:Key="BackgroundPrimary">#E5E5E5</Color>
+   
+    <Color x:Key="PrimaryTextColor">#1C6AFE</Color>
+    <Color x:Key="SecondaryTextColor">White</Color>
+    <Color x:Key="TertiaryTextColor">#15294B</Color>
+    <Color x:Key="TransparentColor">Transparent</Color>
+    <Color x:Key="PageBackgroundColor">White</Color>
+    <Color x:Key="NavigationBarColor">WhiteSmoke</Color>
+</ResourceDictionary>

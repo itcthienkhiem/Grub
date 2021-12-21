@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+xmlns:button="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
+xmlns:richTextEditor="clr-namespace:Syncfusion.XForms.RichTextEditor;assembly=Syncfusion.SfRichTextEditor.XForms"
+             xmlns:rating="clr-namespace:Syncfusion.SfRating.XForms;assembly=Syncfusion.SfRating.XForms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Grub.Components.Review">
+    <ContentView.Content>
+
+        <Frame Style="{StaticResource frame1}"
+       CornerRadius="10" 
+       >
+
+            <StackLayout Orientation="Vertical" >
+
+                <Label Text="Please rate the quality of service for the order" Style="{StaticResource Body1}" HorizontalOptions="Center" VerticalOptions="Center" />
+                <rating:SfRating x:Name="rating"  ItemCount="5" Value="3" ItemSize="20"  HorizontalOptions="Center" VerticalOptions="Center">
+                    <rating:SfRating.RatingSettings>
+                        <rating:SfRatingSettings RatedFill="{StaticResource PrimaryColor}" UnRatedFill="{StaticResource BackgroundPrimary}"/>
+                    </rating:SfRating.RatingSettings>
+                </rating:SfRating>
+                <Label Text="Your comments and suggestions help us improve the service quality better!" HorizontalOptions="Center" VerticalOptions="Center"  />
+
+                <richTextEditor:SfRichTextEditor BackgroundColor="{StaticResource BackgroundPrimary}"/>
+                <Button Style="{DynamicResource ButtonStyle}" Text="Submit"/>
+            </StackLayout>
+
+        </Frame>
+    </ContentView.Content>
+</ContentView>

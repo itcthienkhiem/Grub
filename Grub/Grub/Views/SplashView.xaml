@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Grub.Views.SplashView"
+                BackgroundImageSource="SplashScreen.png"
+             >
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="CenterAndExpand"  VerticalOptions="CenterAndExpand" >
+            <Image Source="logo.png" IsAnimationPlaying="True" x:Name="splashImage"   WidthRequest="200" HeightRequest="200" HorizontalOptions="CenterAndExpand"  VerticalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

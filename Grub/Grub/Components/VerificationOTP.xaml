@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:local="clr-namespace:Grub"
+             x:Class="Grub.Components.VerificationOTP">
+  <ContentView.Content>
+        <Frame Style="{StaticResource frame1}"
+       CornerRadius="25" 
+       >
+            <StackLayout Orientation="Vertical" HorizontalOptions ="CenterAndExpand" >
+
+                <Label Text="Have you not receive Verification Codes OTP"/>
+                <Label Text="An authentication code has been sent to" HorizontalOptions ="CenterAndExpand" />
+                <Label Text="(+880) 111 222 333" Style="{DynamicResource Body1}" HorizontalOptions ="CenterAndExpand" />
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Button Text="Cancel" Style="{StaticResource ButtonStyle01}" />
+                    <Button Text="Call" Style="{StaticResource ButtonStyle}"/>
+
+
+                </StackLayout>
+            </StackLayout>
+        </Frame>
+    </ContentView.Content>
+</ContentView>

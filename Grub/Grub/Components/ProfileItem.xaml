@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Grub.Components.ProfileItem"
+              xmlns:local="clr-namespace:Grub"
+             >
+  <ContentView.Content>
+
+        <Frame Style="{StaticResource frame1}"
+       CornerRadius="5" 
+       >
+            <StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand">
+                <Label Text="How to Edit Profile ?" HorizontalOptions="StartAndExpand" Style="{StaticResource Body1}" />
+                <Image Source="{local:ImageResource Grub.Images.Icons.arrow@2x.png}" HorizontalOptions="EndAndExpand" Aspect="AspectFit"/>
+
+            </StackLayout>
+        </Frame>
+
+        
+  </ContentView.Content>
+</ContentView>

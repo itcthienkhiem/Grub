@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "jIunC8Q51c1CVfnS4XJ+LWjvXbqmD4RlfAWBJ0I1q9+AuUGGpskbUwUY073zc6XnOF5egRuL/oyackeavyEPEA==",
+  "success": true,
+  "projectFilePath": "D:\\Xamarin\\Grub\\Grub\\Grub.iOS\\Grub.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\rg.plugins.popup\\2.0.0.14\\rg.plugins.popup.2.0.0.14.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\syncfusion.licensing\\19.3.0.56\\syncfusion.licensing.19.3.0.56.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\syncfusion.xamarin.buttons\\19.3.0.56\\syncfusion.xamarin.buttons.19.3.0.56.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\syncfusion.xamarin.core\\19.3.0.56\\syncfusion.xamarin.core.19.3.0.56.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\syncfusion.xamarin.datasource\\19.3.0.56\\syncfusion.xamarin.datasource.19.3.0.56.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\syncfusion.xamarin.gridcommon\\19.3.0.56\\syncfusion.xamarin.gridcommon.19.3.0.56.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\syncfusion.xamarin.sfcombobox\\19.3.0.56\\syncfusion.xamarin.sfcombobox.19.3.0.56.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\syncfusion.xamarin.sfimageeditor\\19.3.0.56\\syncfusion.xamarin.sfimageeditor.19.3.0.56.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\syncfusion.xamarin.sflistview\\19.3.0.56\\syncfusion.xamarin.sflistview.19.3.0.56.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\syncfusion.xamarin.sfpicker\\19.3.0.56\\syncfusion.xamarin.sfpicker.19.3.0.56.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\syncfusion.xamarin.sfpopuplayout\\19.3.0.56\\syncfusion.xamarin.sfpopuplayout.19.3.0.56.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\syncfusion.xamarin.sfprogressbar\\19.3.0.56\\syncfusion.xamarin.sfprogressbar.19.3.0.56.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\syncfusion.xamarin.sfrating\\19.3.0.56\\syncfusion.xamarin.sfrating.19.3.0.56.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\syncfusion.xamarin.sfrichtexteditor\\19.3.0.56\\syncfusion.xamarin.sfrichtexteditor.19.3.0.56.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

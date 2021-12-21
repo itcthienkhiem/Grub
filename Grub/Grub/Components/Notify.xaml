@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+               xmlns:local="clr-namespace:Grub"
+             x:Class="Grub.Components.Notify">
+  <ContentView.Content>
+        <Frame Style="{StaticResource frame1}"
+       CornerRadius="5" 
+       >
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition  Width="*" />
+                </Grid.ColumnDefinitions>
+                <Image Source="{local:ImageResource Grub.Images.Icons.icon-3@2x.png}"  Grid.Row="0" Grid.Column="0" HorizontalOptions="EndAndExpand" Aspect="AspectFit" Grid.RowSpan="2"/>
+                <Label Text="Order Cancel" HorizontalOptions="StartAndExpand" Grid.Row="0" Grid.Column="1" Style="{StaticResource Body1}" Grid.ColumnSpan="2" />
+                <Label Text="#107 Order has been cancelled" TextColor="{StaticResource NeutralColorDarkOrange}" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2"/>
+                
+
+
+
+
+            </Grid>
+        </Frame>
+    </ContentView.Content>
+</ContentView>
